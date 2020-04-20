@@ -26,7 +26,7 @@ def possible(y,x,n):
     return True
 
 def solve():
-    global grid
+    global sudoku
     for y in range(9):
         for x in range(9):
             if sudoku[y][x]== 0:
